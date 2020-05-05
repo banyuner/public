@@ -43,8 +43,6 @@ host,ocsp.apple.com,reject
 
 
 
-
-
 host-suffix,00-gov.cn,reject
 host-suffix,kwcdn.000dn.com,reject
 host-suffix,kwcscdn.000dn.com,reject
