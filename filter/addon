@@ -1,0 +1,33 @@
+#self define
+
+# 今日热榜
+host,api.tophub.today,direct
+# notion
+host-suffix,notion.so,proxy
+host-suffix,amazonaws.com,proxy
+host-suffix,amplitude.com,proxy
+host-suffix,app-measurement.com,proxy
+host-suffix,cloudflare.com,proxy
+host-suffix,contentful.com,proxy
+host-suffix,ctfassets.net,proxy
+host-suffix,embed.ly,proxy
+host-suffix,github.com,proxy
+host-suffix,githubassets.com,proxy
+host-suffix,google.com,proxy
+host-suffix,intercom.io,proxy
+host-suffix,intercomcdn.com,proxy
+host-suffix,loggly.com,proxy
+host-suffix,segment.com,proxy
+host-suffix,segment.io,proxy
+host-suffix,stripe.com,proxy
+host-suffix,twimg.com,proxy
+host-suffix,twitter.com,proxy
+host-suffix,typeform.com,proxy
+host-suffix,unsplash.com,proxy
+
+# Reject systems Upgrate
+host,gdmf.apple.com,reject
+host,mesu.apple.com,reject
+
+# Apple certification verify
+host,ocsp.apple.com,reject
