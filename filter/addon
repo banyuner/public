@@ -31,3 +31,6 @@ host,mesu.apple.com,reject
 
 # Apple certification verify
 host,ocsp.apple.com,reject
+
+# anki
+host,sync.ankiweb.net,proxy
