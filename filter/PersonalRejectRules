@@ -1,0 +1,6 @@
+# Reject systems Upgrate
+DOMAIN,gdmf.apple.com
+DOMAIN,mesu.apple.com
+
+# Apple certification verify
+DOMAIN,ocsp.apple.com
