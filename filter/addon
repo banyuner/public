@@ -20,8 +20,6 @@ host-suffix,loggly.com,proxy
 host-suffix,segment.com,proxy
 host-suffix,segment.io,proxy
 host-suffix,stripe.com,proxy
-host-suffix,twimg.com,proxy
-host-suffix,twitter.com,proxy
 host-suffix,typeform.com,proxy
 host-suffix,unsplash.com,proxy
 
