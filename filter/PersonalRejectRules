@@ -1,6 +1,6 @@
 # Reject systems Upgrate
-DOMAIN,gdmf.apple.com
-DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com, reject
+DOMAIN,mesu.apple.com, reject
 
 # Apple certification verify
-DOMAIN,ocsp.apple.com
+DOMAIN,ocsp.apple.com, reject
