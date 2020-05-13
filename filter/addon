@@ -1,52 +1,36 @@
-#self use filter rule
-
-# anki
-DOMAIN-KEYWORD,anki,PROXY
-
-# v2ex
-DOMAIN-SUFFIX,www.v2ex.com,PROXY
+# 今日热榜
+host,api.tophub.today,direct
 
 # notion
-DOMAIN-SUFFIX,notion.so,PROXY
-DOMAIN-SUFFIX,amazonaws.com,PROXY
-DOMAIN-SUFFIX,amplitude.com,PROXY
-DOMAIN-SUFFIX,app-measurement.com,PROXY
-DOMAIN-SUFFIX,cloudflare.com,PROXY
-DOMAIN-SUFFIX,contentful.com,PROXY
-DOMAIN-SUFFIX,ctfassets.net,PROXY
-DOMAIN-SUFFIX,embed.ly,PROXY
-DOMAIN-SUFFIX,github.com,PROXY
-DOMAIN-SUFFIX,githubassets.com,PROXY
-DOMAIN-SUFFIX,google.com,PROXY
-DOMAIN-SUFFIX,intercom.io,PROXY
-DOMAIN-SUFFIX,intercomcdn.com,PROXY
-DOMAIN-SUFFIX,loggly.com,PROXY
-DOMAIN-SUFFIX,segment.com,PROXY
-DOMAIN-SUFFIX,segment.io,PROXY
-DOMAIN-SUFFIX,stripe.com,PROXY
-# DOMAIN-SUFFIX,twimg.com,PROXY
-# DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,typeform.com,PROXY
-DOMAIN-SUFFIX,unsplash.com,PROXY
-
-# 今日热榜
-DOMAIN,api.tophub.today,DIRECT
-
-# v2ex
-DOMAIN,www.v2ex.com,DIRECT
+host-suffix,notion.so,proxy
+host-suffix,amazonaws.com,proxy
+host-suffix,amplitude.com,proxy
+host-suffix,app-measurement.com,proxy
+host-suffix,cloudflare.com,proxy
+host-suffix,contentful.com,proxy
+host-suffix,ctfassets.net,proxy
+host-suffix,embed.ly,proxy
+host-suffix,github.com,proxy
+host-suffix,githubassets.com,proxy
+host-suffix,google.com,proxy
+host-suffix,intercom.io,proxy
+host-suffix,intercomcdn.com,proxy
+host-suffix,loggly.com,proxy
+host-suffix,segment.com,proxy
+host-suffix,segment.io,proxy
+host-suffix,stripe.com,proxy
+host-suffix,typeform.com,proxy
+host-suffix,unsplash.com,proxy
 
 # Reject systems Upgrate
-DOMAIN,gdmf.apple.com,REJECT
-DOMAIN,mesu.apple.com,REJECT
+host,gdmf.apple.com,reject
+host,mesu.apple.com,reject
 
 # Apple certification verify
-DOMAIN,ocsp.apple.com,REJECT
+host,ocsp.apple.com,reject
 
-# JD 比价修正
-DOMAIN-SUFFIX,cc.m.jd.com,DIRECT
+# anki
+host-keyword,anki,proxy
 
-# taobao add
-IP-CIDR,203.119.128.0/17,REJECT,no-resolve
-
-# tieba 修正
-# DOMAIN-SUFFIX,tieba.baidu.com, DIRECT
+# v2ex
+host-keyword,v2ex,proxy
