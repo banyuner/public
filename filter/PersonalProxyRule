@@ -1,0 +1,28 @@
+# anki
+DOMAIN-KEYWORD,anki
+
+# v2ex
+DOMAIN,www.v2ex.com
+
+# notion
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,contentful.com
+DOMAIN-SUFFIX,ctfassets.net
+DOMAIN-SUFFIX,embed.ly
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,loggly.com
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,stripe.com
+# DOMAIN-SUFFIX,twimg.com
+# DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,typeform.com
+DOMAIN-SUFFIX,unsplash.com
