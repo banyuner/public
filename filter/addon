@@ -36,4 +36,4 @@ host,ocsp.apple.com,reject
 host-keyword,anki,proxy
 
 # v2ex
-host-suffix,*.v2ex.com,proxy
+host-keyword,v2ex,proxy
