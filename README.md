@@ -3,6 +3,7 @@
 **surge**
 - 规则文件内**无具体策略组**，但可以忽略掉规则内的策略组，如proxy/direct/reject等，**必须**要在**RULE-SET后自行添加**
 - 关键词是DOMAIN/DOMAIN-KEYWORD/DOMAIN-SUFFIX，**不能兼容host类关键词**
+
 **quantumultX**
 - 规则文件内**必须**要有**具体策略组**，但是可是通过force-policy参数来强制要求走规则策略组
 - 关键词是host/host-keyword/host-suffix，**可以兼容DOMAIN类关键词**
