@@ -1,5 +1,3 @@
-# CS's private repository
-
 # 关于自用的分流规则
 **surge与qx对于远程引用规则的不同：**
 **surge**
