@@ -1,5 +1,6 @@
 # 关于自用的分流规则
 **surge与qx对于远程引用规则的不同：**
+
 **surge**
 - 规则文件内**无具体策略组**，但可以忽略掉规则内的策略组，如proxy/direct/reject等，**必须**要在**RULE-SET后自行添加**
 - 关键词是DOMAIN/DOMAIN-KEYWORD/DOMAIN-SUFFIX，**不能兼容host类关键词**
