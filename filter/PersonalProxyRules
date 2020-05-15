@@ -13,9 +13,9 @@ DOMAIN-SUFFIX,cloudflare.com, proxy
 DOMAIN-SUFFIX,contentful.com, proxy
 DOMAIN-SUFFIX,ctfassets.net, proxy
 DOMAIN-SUFFIX,embed.ly, proxy
-DOMAIN-SUFFIX,github.com, proxy
+DOMAIN-KEYWORD,github.com, proxy
 DOMAIN-SUFFIX,githubassets.com, proxy
-DOMAIN-SUFFIX,google.com, proxy
+# DOMAIN-SUFFIX,google.com, proxy
 DOMAIN-SUFFIX,intercom.io, proxy
 DOMAIN-SUFFIX,intercomcdn.com, proxy
 DOMAIN-SUFFIX,loggly.com, proxy
