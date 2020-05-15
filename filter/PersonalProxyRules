@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,stripe.com, proxy
 # DOMAIN-SUFFIX,twitter.com, proxy
 DOMAIN-SUFFIX,typeform.com, proxy
 DOMAIN-SUFFIX,unsplash.com, proxy
+
+#epic
+DOMAIN-KEYWORD,epicgames, proxy
