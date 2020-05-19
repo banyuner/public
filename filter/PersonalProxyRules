@@ -5,27 +5,38 @@ DOMAIN-KEYWORD,anki, proxy
 DOMAIN,www.v2ex.com, proxy
 
 # notion
-DOMAIN-SUFFIX,notion.so, proxy
-DOMAIN-SUFFIX,amazonaws.com, proxy
-DOMAIN-SUFFIX,amplitude.com, proxy
-DOMAIN-SUFFIX,app-measurement.com, proxy
-DOMAIN-SUFFIX,cloudflare.com, proxy
-DOMAIN-SUFFIX,contentful.com, proxy
-DOMAIN-SUFFIX,ctfassets.net, proxy
-DOMAIN-SUFFIX,embed.ly, proxy
-DOMAIN-KEYWORD,github.com, proxy
-DOMAIN-SUFFIX,githubassets.com, proxy
-# DOMAIN-SUFFIX,google.com, proxy
-DOMAIN-SUFFIX,intercom.io, proxy
-DOMAIN-SUFFIX,intercomcdn.com, proxy
-DOMAIN-SUFFIX,loggly.com, proxy
-DOMAIN-SUFFIX,segment.com, proxy
-DOMAIN-SUFFIX,segment.io, proxy
-DOMAIN-SUFFIX,stripe.com, proxy
-# DOMAIN-SUFFIX,twimg.com, proxy
-# DOMAIN-SUFFIX,twitter.com, proxy
-DOMAIN-SUFFIX,typeform.com, proxy
-DOMAIN-SUFFIX,unsplash.com, proxy
+# 精简版
+DOMAIN-SUFFIX, loggly.com, proxy
+DOMAIN-SUFFIX, segment.com, proxy
+DOMAIN-SUFFIX, intercom.io, proxy
+DOMAIN-SUFFIX, intercomcdn.com, proxy
+DOMAIN-SUFFIX, amplitude.com, proxy
+DOMAIN-SUFFIX, notion.so, proxy
+DOMAIN-SUFFIX, amazonaws.com, proxy
+
+
+# 极致版
+# DOMAIN-SUFFIX,notion.so, proxy
+# DOMAIN-SUFFIX,amazonaws.com, proxy
+# DOMAIN-SUFFIX,amplitude.com, proxy
+# DOMAIN-SUFFIX,app-measurement.com, proxy
+# DOMAIN-SUFFIX,cloudflare.com, proxy
+# DOMAIN-SUFFIX,contentful.com, proxy
+# DOMAIN-SUFFIX,ctfassets.net, proxy
+# DOMAIN-SUFFIX,embed.ly, proxy
+# DOMAIN-SUFFIX,intercom.io, proxy
+# DOMAIN-SUFFIX,intercomcdn.com, proxy
+# DOMAIN-SUFFIX,loggly.com, proxy
+# DOMAIN-SUFFIX,segment.com, proxy
+# DOMAIN-SUFFIX,segment.io, proxy
+# DOMAIN-SUFFIX,stripe.com, proxy
+# DOMAIN-SUFFIX,typeform.com, proxy
+# DOMAIN-SUFFIX,unsplash.com, proxy
+# #DOMAIN-SUFFIX,google.com, proxy
+# #DOMAIN-SUFFIX,twimg.com, proxy
+# #DOMAIN-SUFFIX,twitter.com, proxy
+# #DOMAIN-KEYWORD,github.com, proxy
+# #DOMAIN-SUFFIX,githubassets.com, proxy
 
 #epic
-DOMAIN-KEYWORD,epicgames, proxy
+DOMAIN-KEYWORD, epicgames, proxy
