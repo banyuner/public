@@ -1,2 +1,5 @@
 # 今日热榜
 DOMAIN,api.tophub.today,direct
+
+#icloud邮箱
+DOMAIN,imap.mail.me.com,direct
