@@ -2,4 +2,4 @@
 DOMAIN,api.tophub.today,direct
 
 #iCloud邮箱
-DOMAIN,imap.mail.me.com,direct
+DOMAIN-SUFFIX,me.com,direct
