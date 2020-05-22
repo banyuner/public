@@ -4,6 +4,9 @@ DOMAIN-KEYWORD,anki, proxy
 # v2ex
 DOMAIN,www.v2ex.com, proxy
 
+# YouTube
+DOMAIN-KEYWORD,youtube, proxy
+
 # notion
 # 精简版
 DOMAIN-SUFFIX, loggly.com, proxy
