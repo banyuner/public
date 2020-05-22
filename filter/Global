@@ -1,7 +1,7 @@
 # 此处收录需要代理，同时对代理流量区域无要求的请求，像NF，HBO等不在此列
 
-# (DNS Cache Pollution Protection),proxy,proxy
-# > Google,proxy,proxy
+# (DNS Cache Pollution Protection),proxy
+# > Google,proxy
 DOMAIN-SUFFIX,ampproject.org,proxy,proxy
 DOMAIN-SUFFIX,appspot.com,proxy,proxy
 DOMAIN-SUFFIX,blogger.com,proxy,proxy
