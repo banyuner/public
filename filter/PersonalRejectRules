@@ -3,4 +3,4 @@
 # DOMAIN,mesu.apple.com, reject
 
 # Apple certification verify
-DOMAIN,ocsp.apple.com, reject
+# DOMAIN,ocsp.apple.com, reject
