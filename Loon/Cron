@@ -2,21 +2,21 @@
 # 贴吧
 cron "0,5 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js, tag = 贴吧, enable=true
 
-# 趣头条
-cron "*/60 * * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js, tag = 趣头条, enable=true
+# JD
+cron "2 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag = JD, enable=true
+
+# 爱奇艺
+cron "3 0 * * *" script-path = https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag = 爱奇艺, enable=true
+
+# 微博红包
+cron "8 0 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,tag = 微博红包, enable=true
 
 # 米读
 cron "1 0 * * *" script-path=https://raw.githubusercontent.com/GideonSenku/scripts/master/midu/miduSign.js, tag = 米读签到, enable=true
 cron "*/30 * 0-12 * * *" script-path=https://raw.githubusercontent.com/GideonSenku/scripts/master/midu/miduRead.js, tag = 米读阅读, enable=true
 
-# JD
-cron "2 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag = JD, enable=true
-
 # bilibili Comic
 cron "2 0 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag = bilibili Comic, enable=true
-
-# 爱奇艺
-cron "3 0 * * *" script-path = https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag = 爱奇艺, enable=true
 
 # 52pojie
 cron "3 0 * * *" script-path = https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag = 52pojie, enable=true
@@ -55,9 +55,6 @@ cron "8 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scri
 
 # 10086
 cron "8 0 0 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag = 10086, enable=true
-
-# 微博红包
-cron "8 0 0 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,tag = 微博红包, enable=true
 
 # 蚂蚁森林
 cron "0 24 7 * * *" script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,tag = 蚂蚁森林,enable=true

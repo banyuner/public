@@ -39,10 +39,6 @@ http-request ^https:\/\/api\-new\.app\.acfun\.cn\/rest\/app\/user\/personalInfo 
 # 智行火车 m.ctrip.com
 http-request ^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js, requires-body=true
 
-# 趣头条 api.1sapp.com
-http-request ^https:\/\/api\.1sapp\.com\/sign\/info? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-http-request ^https:\/\/api\.1sapp\.com\/content\/readV2? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
-http-request ^https:\/\/api\.1sapp\.com\/x\/feed\/getReward? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
 
 # 米读 apiwz.midukanshu.com
 http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubusercontent.com/GideonSenku/scripts/master/midu/midu.cookie.js, requires-body=true
