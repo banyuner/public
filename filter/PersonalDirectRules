@@ -1,6 +1,6 @@
 # 淘宝发送图片修正
-DOMAIN,adashx.m.taobao.com,direct
-# DOMAIN,h-adashx.ut.taobao.com,direct
+# DOMAIN,adashx.m.taobao.com,direct
+DOMAIN,h-adashx.ut.taobao.com,direct
 
 # 今日热榜
 DOMAIN,api.tophub.today,direct
