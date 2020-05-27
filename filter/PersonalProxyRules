@@ -1,3 +1,7 @@
+#pixiv
+DOMAIN-KEYWORD,pixiv,proxy
+
+
 # api 代理
 DOMAIN-KEYWORD,gfwsb.114514,proxy
 
