@@ -1,6 +1,8 @@
 # Reject systems Upgrate
 DOMAIN,gdmf.apple.com, reject
 DOMAIN,mesu.apple.com, reject
+DOMAIN,updates-http.cdn-apple.com, reject
+DOMAIN,xp.apple.com, reject
 
 # Apple certification verify
 DOMAIN,ocsp.apple.com, reject
