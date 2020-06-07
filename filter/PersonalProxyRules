@@ -1,3 +1,9 @@
+#Spark
+DOMAIN-SUFFIX, api.amplitude.com,proxy
+DOMAIN-SUFFIX,app.smartmailcloud.com,proxy
+DOMAIN-SUFFIX, firebaseio.com,proxy
+DOMAIN-SUFFIX, gate.hockeyapp.net,proxy
+
 #pixiv
 DOMAIN-KEYWORD,pixiv,proxy
 
