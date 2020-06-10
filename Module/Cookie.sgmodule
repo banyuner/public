@@ -14,11 +14,7 @@ TieBa_Cookie = type=http-request,pattern=https?:\/\/c\.tieba\.baidu\.com\/c\/s\/
 # iqiyi *.iqiyi.com
 iqiyi_cookie= type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
-
-# 米读 apiwz.midukanshu.com
-http-request ^https:\/\/apiwz\.midukanshu\.com script-path=https://raw.githubusercontent.com/GideonSenku/scripts/master/midu/midu.cookie.js, requires-body=true
-
-# Get bilibili Comic cookie  manga.bilibili.com,apiwz.midukanshu.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+# Get bilibili Comic cookie  manga.bilibili.com
 http-request https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 
 # 52pojie www.52pojie.cn
@@ -70,4 +66,4 @@ http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do
 http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 
 [MITM]
-hostname = %INSERT% passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,music.163.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,apiwz.midukanshu.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,music.163.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
