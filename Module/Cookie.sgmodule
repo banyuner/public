@@ -65,5 +65,8 @@ http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do s
 http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
 
+# 有道云笔记 note.youdao.com
+有道云笔记 = type=http-request,pattern=^https:\/\/note.youdao.com\/yws\/mapi\/user\?method=checkin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.cookie.js,requires-body=true
+
 [MITM]
-hostname = %INSERT% passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,music.163.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,music.163.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
