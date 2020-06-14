@@ -7,6 +7,8 @@ DOMAIN-SUFFIX, gate.hockeyapp.net,proxy
 #pixiv
 DOMAIN-KEYWORD,pixiv,proxy
 
+#epic 限免消息
+DOMAIN, rsshub.app, proxy
 
 # api 代理
 DOMAIN-KEYWORD,gfwsb.114514,proxy
