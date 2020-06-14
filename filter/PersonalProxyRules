@@ -11,10 +11,6 @@ DOMAIN-KEYWORD,pixiv,proxy
 # api 代理
 DOMAIN-KEYWORD,gfwsb.114514,proxy
 
-
-# Spark-mail
-PROCESS-NAME,Spark,proxy
-
 # anki
 DOMAIN-KEYWORD,anki, proxy
 
