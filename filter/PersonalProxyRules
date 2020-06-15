@@ -1,5 +1,8 @@
 #reddit
-DOMAIN-SUFFIX,*.redd.it,proxy
+DOMAIN-SUFFIX,preview.redd.it,proxy
+DOMAIN-SUFFIX,external-preview.redd.it,proxy
+DOMAIN-SUFFIX,v.redd.it,proxy
+
 
 #Spark
 DOMAIN-SUFFIX, api.amplitude.com,proxy
