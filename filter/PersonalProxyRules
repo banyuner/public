@@ -1,3 +1,6 @@
+#reddit
+DOMAIN-SUFFIX,*.redd.it,proxy
+
 #Spark
 DOMAIN-SUFFIX, api.amplitude.com,proxy
 DOMAIN-SUFFIX,app.smartmailcloud.com,proxy
