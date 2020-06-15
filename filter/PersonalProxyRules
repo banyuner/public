@@ -1,3 +1,6 @@
+# box
+DOMAIN,8.8.8.8, proxy
+
 #reddit
 DOMAIN-SUFFIX,preview.redd.it,proxy
 DOMAIN-SUFFIX,external-preview.redd.it,proxy
