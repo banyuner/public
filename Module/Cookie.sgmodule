@@ -68,8 +68,7 @@ http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/c
 # 有道云笔记 note.youdao.com
 有道云笔记 = type=http-request,pattern=^https:\/\/note.youdao.com\/yws\/mapi\/user\?method=checkin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.cookie.js,requires-body=true
 
-#腾讯新闻
-腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js
+腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
 
 
 [MITM]
