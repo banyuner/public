@@ -26,7 +26,7 @@ DOMAIN-KEYWORD,gfwsb.114514,proxy
 DOMAIN-KEYWORD,anki, proxy
 
 # v2ex
-DOMAIN,www.v2ex.com, proxy
+DOMAIN-SUFFIX, v2ex.com, proxy
 
 # notion
 # 精简版
