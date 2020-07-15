@@ -65,10 +65,8 @@ http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/c
 # 有道云笔记 note.youdao.com
 有道云笔记 = type=http-request,pattern=^https:\/\/note.youdao.com\/yws\/mapi\/user\?method=checkin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.cookie.js,requires-body=true
 
-腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
-
 # 海底捞activity-1.m.duiba.com.cn
 http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
 
 [MITM]
-hostname = %INSERT% activity-1.m.duiba.com.cn, api.inews.qq.com,note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% activity-1.m.duiba.com.cn, note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
