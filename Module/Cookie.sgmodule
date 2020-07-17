@@ -68,5 +68,8 @@ http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/c
 # 海底捞activity-1.m.duiba.com.cn
 http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
 
+# 不背单词 sapi.beingfine.cn,
+http-request ^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js
+
 [MITM]
-hostname = %INSERT% activity-1.m.duiba.com.cn, note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% sapi.beingfine.cn,activity-1.m.duiba.com.cn, note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
