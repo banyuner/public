@@ -2,7 +2,14 @@
 Quantumult X 
 脚本:不背单词 内购全破解  By：Seven3in
 [rewrite_local]
-^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch url script-response-body https://raw.githubusercontent.com/Seven3in/QuantumultX/master/JS/bbdc.js
+^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch url script-response-body https://raw.githubusercontent.com/balusi/public/master/bbdc.js
+[MITM]
+hostname = sapi.beingfine.cn
+
+Surge
+[Script]
+http-response ^https:\/\/sapi\.beingfine\.cn\/v3\/report\/launch requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/balusi/public/master/bbdc.js
+
 [MITM]
 hostname = sapi.beingfine.cn
 */
