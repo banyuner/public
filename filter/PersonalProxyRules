@@ -1,3 +1,25 @@
+# > iCloud email
+DOMAIN-SUFFIX, mail.icloud.com.cn, proxy
+DOMAIN-SUFFIX, mail.me.com, proxy
+
+# > Apple Music
+USER-AGENT, Music*, proxy
+DOMAIN, aod.itunes.apple.com, proxy
+DOMAIN, mvod.itunes.apple.com, proxy
+DOMAIN, streamingaudio.itunes.apple.com, proxy
+
+# > Apple News
+DOMAIN, gateway.icloud.com, proxy
+DOMAIN, gspe1-ssl.ls.apple.com, proxy
+DOMAIN-SUFFIX, apple.news, proxy
+DOMAIN, news-client.apple.com, proxy
+DOMAIN, news-edge.apple.com, proxy
+DOMAIN, news-events.apple.com, proxy
+DOMAIN, apple.comscoreresearch.com, proxy
+
+# Siri
+DOMAIN, guzzoni.apple.com, proxy
+
 # box
 DOMAIN,8.8.8.8, proxy
 
