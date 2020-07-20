@@ -11,8 +11,8 @@ DOMAIN, appldnld.apple.com, direct
 DOMAIN, ns.itunes.apple.com, direct
 # > iOS, tvOS, and macOS
 DOMAIN, mesu.apple.com, direct
-DOMAIN, updates.cdn - apple.com, direct
-DOMAIN, updates - http.cdn - apple.com, direct
+DOMAIN, updates.cdn-apple.com, direct
+DOMAIN, updates-http.cdn-apple.com, direct
 DOMAIN, xp.apple.com, direct
 
 # apple TV
