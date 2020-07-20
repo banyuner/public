@@ -16,9 +16,9 @@ DOMAIN, updates - http.cdn - apple.com, direct
 DOMAIN, xp.apple.com, direct
 
 # apple TV
-USER - AGENT, AppleTV*, direct
-USER - AGENT, com.apple.tv*, direct
-DOMAIN - SUFFIX, tv.apple.com, direct
+USER-AGENT, AppleTV*, direct
+USER-AGENT, com.apple.tv*, direct
+DOMAIN-SUFFIX, tv.apple.com, direct
 DOMAIN, hls.itunes.apple.com, direct
-DOMAIN, hls - amt.itunes.apple.com, direct
-DOMAIN, play - edge.itunes.apple.com, direct
+DOMAIN, hls-amt.itunes.apple.com, direct
+DOMAIN, play-edge.itunes.apple.com, direct
