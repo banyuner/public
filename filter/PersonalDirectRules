@@ -1,3 +1,26 @@
+# App Store
+# Store content such as apps, books, and music
+DOMAIN-SUFFIX, apps.apple.com, proxy
+DOMAIN-SUFFIX, itunes.apple.com, proxy
+DOMAIN-SUFFIX, itunes-apple.com.akadns.net, proxy
+DOMAIN-SUFFIX, mzstatic.com, proxy
+DOMAIN, ppq.apple.com, proxy
+
+# > App Store Connect
+DOMAIN, appstoreconnect.apple.com, proxy
+DOMAIN, iosapps-ssl.itunes.apple.com, proxy
+DOMAIN, itcmobile.itunes.apple.com, proxy
+
+# TestFlight
+DOMAIN, beta.apple.com, proxy
+DOMAIN, testflight.apple.com, proxy
+
+# iCloud
+DOMAIN-SUFFIX,apple-cloudkit.com,proxy
+DOMAIN-SUFFIX,icloud.com,proxy
+DOMAIN-SUFFIX,icloud.com.cn,proxy
+DOMAIN-SUFFIX,icloud-content.com,proxy
+DOMAIN,www-cdn.icloud.com.akadns.net,proxy
 
 # 今日热榜
 DOMAIN,api.tophub.today,direct
