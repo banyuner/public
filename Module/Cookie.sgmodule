@@ -12,7 +12,8 @@ http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-
 TieBa_Cookie = type=http-request,pattern=https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
 # iqiyi *.iqiyi.com
-iqiyi_cookie= type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+爱奇艺获取Cookie = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
 
 # Get bilibili Comic cookie  manga.bilibili.com
 http-request https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
@@ -75,4 +76,4 @@ http-request ^https:\/\/sapi\.beingfine\.cn\/v3\/bb\/reward\/by-sign-in script-p
 http-request ^https:\/\/api\.xiaoheihe\.cn\/account\/home_v\d\/\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js
 
 [MITM]
-hostname = %INSERT% api.xiaoheihe.cn, sapi.beingfine.cn,activity-1.m.duiba.com.cn, note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,*.iqiyi.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% *.iqiyi.com, api.xiaoheihe.cn, sapi.beingfine.cn,activity-1.m.duiba.com.cn, note.youdao.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, i.meituan.com, api.weibo.cn, pay.sc.weibo.com,wx.10086.cn,gameapi.hellobike.com,m.ctrip.com,*.acfun.cn,mobwsa.ximalaya.com, *.rrys2019.com, ios.zmzapi.com,*.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,c.tieba.baidu.com,api.m.jd.com
