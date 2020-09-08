@@ -1,6 +1,9 @@
+# beancount
+DOMAIN,beancount.io,proxy
+
 # TestFlight
 DOMAIN, beta.apple.com, proxy
-DOMAIN, testflight.apple.com, proxy
+DOMAIN, testflight.apple.com
 
 # > iCloud email
 DOMAIN-SUFFIX, mail.icloud.com.cn, proxy
