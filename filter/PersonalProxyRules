@@ -1,5 +1,6 @@
 # beancount
 DOMAIN,beancount.io,proxy
+DOMAIN,exp.host,proxy
 
 # TestFlight
 DOMAIN, beta.apple.com, proxy
