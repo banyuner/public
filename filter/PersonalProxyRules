@@ -1,3 +1,7 @@
+# moneypro
+DOMAIN,data.flurry.com,proxy
+DOMAIN-KEYWORD,moneypro,proxy
+
 # beancount
 DOMAIN,beancount.io,proxy
 DOMAIN,exp.host,proxy
