@@ -1,5 +1,5 @@
 # hostloc
-DOMAIN-KEYWORD,hostloc, proxy
+# DOMAIN-KEYWORD,hostloc, proxy
 
 # moneypro
 DOMAIN,data.flurry.com,proxy
