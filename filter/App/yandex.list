@@ -1,0 +1,7 @@
+# > yandex
+USER-AGENT,yandex*
+USER-AGENT,yoomoney*
+DOMAIN-KEYWORD,yandex
+DOMAIN-KEYWORD,yoomoney
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yoomoney.ru
