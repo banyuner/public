@@ -1,9 +1,6 @@
 # ion
 DOMAIN-SUFFIX, krypt.com, proxy
 
-# hostloc
-DOMAIN-KEYWORD,hostloc, proxy
-
 # moneypro
 DOMAIN,data.flurry.com,proxy
 DOMAIN-KEYWORD,moneypro,proxy
