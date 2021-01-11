@@ -1,2 +1,4 @@
 # hostloc
+USER-AGENT,hostloc*
 DOMAIN-KEYWORD,hostloc, proxy
+DOMAIN-SUFFIX,hostloc.com, proxy
