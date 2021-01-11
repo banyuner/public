@@ -5,19 +5,19 @@
 # HOST-SUFFIX: 10
 # HOST: 6
 # TOTAL: 16
-HOST,steambroadcast.akamaized.net,Steam
-HOST,steamcdn-a.akamaihd.net,Steam
-HOST,steamcommunity-a.akamaihd.net,Steam
-HOST,steamstore-a.akamaihd.net,Steam
-HOST,steamusercontent-a.akamaihd.net,Steam
-HOST,steamuserimages-a.akamaihd.net,Steam
-HOST-SUFFIX,fanatical.com,Steam
-HOST-SUFFIX,humblebundle.com,Steam
-HOST-SUFFIX,steam-chat.com,Steam
-HOST-SUFFIX,steamcommunity.com,Steam
-HOST-SUFFIX,steamcontent.com,Steam
-HOST-SUFFIX,steamgames.com,Steam
-HOST-SUFFIX,steampowered.com,Steam
-HOST-SUFFIX,steamstat.us,Steam
-HOST-SUFFIX,steamstatic.com,Steam
-HOST-SUFFIX,steamusercontent.com,Steam
+DOMAIN,steambroadcast.akamaized.net,Steam
+DOMAIN,steamcdn-a.akamaihd.net,Steam
+DOMAIN,steamcommunity-a.akamaihd.net,Steam
+DOMAIN,steamstore-a.akamaihd.net,Steam
+DOMAIN,steamusercontent-a.akamaihd.net,Steam
+DOMAIN,steamuserimages-a.akamaihd.net,Steam
+DOMAIN-SUFFIX,fanatical.com,Steam
+DOMAIN-SUFFIX,humblebundle.com,Steam
+DOMAIN-SUFFIX,steam-chat.com,Steam
+DOMAIN-SUFFIX,steamcommunity.com,Steam
+DOMAIN-SUFFIX,steamcontent.com,Steam
+DOMAIN-SUFFIX,steamgames.com,Steam
+DOMAIN-SUFFIX,steampowered.com,Steam
+DOMAIN-SUFFIX,steamstat.us,Steam
+DOMAIN-SUFFIX,steamstatic.com,Steam
+DOMAIN-SUFFIX,steamusercontent.com,Stea
