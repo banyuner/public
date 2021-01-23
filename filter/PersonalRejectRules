@@ -6,3 +6,8 @@ DOMAIN,xp.apple.com, reject
 
 # Apple certification verify
 DOMAIN,ocsp.apple.com, reject
+
+# reject Mac Update
+DOMAIN, swscan.apple.com, reject
+DOMAIN, swcdn.apple.com, reject
+DOMAIN, swdist.apple.com, reject
