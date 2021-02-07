@@ -14,7 +14,7 @@ DOMAIN,exp.host,proxy
 
 # TestFlight
 DOMAIN, beta.apple.com, proxy
-DOMAIN, testflight.apple.com
+DOMAIN, testflight.apple.com, proxy
 
 # > iCloud email
 DOMAIN-SUFFIX, mail.icloud.com.cn, proxy
