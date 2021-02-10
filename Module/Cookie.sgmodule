@@ -1,10 +1,10 @@
 #!name= Cookie模块--by cs
 #!desc=集成了必要的获取Cookie条目
-#!system=ios
+
 
 [Script]
 # ------------------------------------------------------------------#
-# get Cookie
+# get Cookie #!system=ios
 # 小米运动步数 account.huami.com
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/balusi/public/master/Scripts/xiaomi
 
