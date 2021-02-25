@@ -1,3 +1,6 @@
+# 资源更新
+DOMAIN-SUFFIX,githubusercontent.com, proxy
+
 # Clubhouse规则
 DOMAIN-SUFFIX,clubhouseapi.com, proxy
 DOMAIN-SUFFIX,joinclubhouse.com, proxy
