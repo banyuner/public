@@ -1,3 +1,9 @@
+# stackoverflow
+DOMAIN-KEYWORD, stackoverflow, proxy
+
+# cloudflare
+DOMAIN-SUFFIX, cloudflare.com, proxy
+
 # 资源更新
 DOMAIN-SUFFIX,githubusercontent.com, proxy
 
