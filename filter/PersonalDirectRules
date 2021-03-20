@@ -1,3 +1,8 @@
+# 向日葵远程
+DOMAIN-SUFFIX, oray.net, direct
+DOMAIN-SUFFIX, oray.com, direct
+DOMAIN-KEYWORD, oray, direct
+
 # App Store
 # Store content such as apps, books, and music
 DOMAIN-SUFFIX, apps.apple.com, direct
