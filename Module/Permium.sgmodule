@@ -30,6 +30,10 @@ URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT
 ^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
 ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
+^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier) - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ - reject
+^https?:\/\/\w+\.youtube\.com\/api\/stats\/(ads|.+adformat) - reject
+^https?:\/\/\w+\.youtube\.com\/(pagead|ptracking) - reject
 
 
 [Script]
@@ -38,5 +42,5 @@ URL-REGEX,https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT
 http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/banyuner/public/master/Scripts/ytb.js
 
 [MITM]
-hostname = %INSERT% *.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com
+hostname = %INSERT% *.googlevideo.com,s.youtube.com,www.youtube.com,youtubei.googleapis.com，m.youtube.com, *.youtube.com
 
