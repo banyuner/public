@@ -5,10 +5,11 @@
 # Youtube
 (^https?:\/\/[\w-]+\.googlevideo\.com\/.+)(ctier=L)(&.+) $1$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) - reject
+
 [Script]
 # ------------------------------------------------------------------#
-# get Cookie #!system=ios
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=
+# 去广告 #!system=ios
+http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://raw.githubusercontent.com/banyuner/public/master/Scripts/ytb.js
 
 [MITM]
 hostname = %INSERT% *.googlevideo.com
