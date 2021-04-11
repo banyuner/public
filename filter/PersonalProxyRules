@@ -10,8 +10,12 @@ DOMAIN-KEYWORD, stackoverflow, proxy
 # cloudflare
 DOMAIN-SUFFIX, cloudflare.com, proxy
 
-# 资源更新
-DOMAIN-SUFFIX,githubusercontent.com, proxy
+# GitHub
+DOMAIN-KEYWORD, github, proxy
+DOMAIN-SUFFIX, githubstatus.com, proxy
+DOMAIN-SUFFIX, githubusercontent.com, proxy
+DOMAIN-SUFFIX, githubstatus.com, proxy
+DOMAIN-SUFFIX, githubassets.com, proxy
 
 # Clubhouse规则
 DOMAIN-SUFFIX,clubhouseapi.com, proxy
@@ -143,8 +147,7 @@ DOMAIN-SUFFIX, amazonaws.com, proxy
 # #DOMAIN-SUFFIX,google.com, proxy
 # #DOMAIN-SUFFIX,twimg.com, proxy
 # #DOMAIN-SUFFIX,twitter.com, proxy
-# #DOMAIN-KEYWORD,github.com, proxy
-# #DOMAIN-SUFFIX,githubassets.com, proxy
+
 
 #epic
 DOMAIN-KEYWORD, epicgames, proxy
