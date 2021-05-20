@@ -1,3 +1,7 @@
+# wiki
+DOMAIN-KEYWORD, wikipedia, proxy
+DOMAIN-SUFFIX, wikipedia.org, proxy
+
 # driver and image bed
 DOMAIN-KEYWORD, tozcs, proxy
 DOMAIN-SUFFIX, tozcs.com, proxy
