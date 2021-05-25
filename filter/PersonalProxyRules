@@ -1,3 +1,7 @@
+# ovh
+DOMAIN-KEYWORD, ovhcloud, proxy
+DOMAIN-SUFFIX, ovhcloud.com, proxy
+
 # wiki
 DOMAIN-KEYWORD, wikipedia, proxy
 DOMAIN-SUFFIX, wikipedia.org, proxy
