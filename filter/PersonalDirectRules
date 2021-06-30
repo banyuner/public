@@ -1,3 +1,7 @@
+# driver and image bed
+DOMAIN-KEYWORD, tozcs, proxy
+DOMAIN-SUFFIX, tozcs.com, proxy
+
 # roamedit
 DOMAIN-KEYWORD, roamedit, direct
 DOMAIN-SUFFIX, roamedit.com, direct
