@@ -11,3 +11,8 @@ DOMAIN,ocsp.apple.com, reject
 DOMAIN, swscan.apple.com, reject
 DOMAIN, swcdn.apple.com, reject
 DOMAIN, swdist.apple.com, reject
+
+# 极光和友盟 广告
+DOMAIN-SUFFIX, jpush.cn, reject
+DOMAIN-SUFFIX, umeng.com, reject
+DOMAIN-KEYWORD, umengcloud, reject
