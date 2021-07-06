@@ -1,16 +1,16 @@
 # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 # > Apple
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,aaplimg.com, direct
+DOMAIN-SUFFIX,apple.co, direct
+DOMAIN-SUFFIX,apple.com, direct
+DOMAIN-SUFFIX,appstore.com, direct
+DOMAIN-SUFFIX,cdn-apple.com, direct
+DOMAIN-SUFFIX,crashlytics.com, direct
+DOMAIN-SUFFIX,icloud.com, direct
+DOMAIN-SUFFIX,icloud-content.com, direct
+DOMAIN-SUFFIX,me.com, direct
+DOMAIN-SUFFIX,mzstatic.com, direct
+DOMAIN,www-cdn.icloud.com.akadns.net, direct
 
 # App Store
 # Store content such as apps, books, and music
@@ -21,7 +21,7 @@ DOMAIN-SUFFIX, mzstatic.com, direct
 DOMAIN, ppq.apple.com, direct
 
 # > App Store Connect
-DOMAIN, appstoreconnect.apple.com, direct
+DOMAIN, appstoreconnect.apple.com
 DOMAIN, iosapps-ssl.itunes.apple.com, direct
 DOMAIN, itcmobile.itunes.apple.com, direct
 
