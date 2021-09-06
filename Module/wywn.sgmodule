@@ -1,0 +1,10 @@
+#!name=Script
+#!desc=网易蜗牛
+#!system=ios
+
+[Script]
+# > 网易蜗牛读书VIP
+wnyd.js = requires-body=1,script-path=https://raw.githubusercontent.com/banyuner/public/master/Scripts/wywn.js,type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json
+
+[MITM]
+hostname = %APPEND% p.du.163.com
