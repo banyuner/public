@@ -1,3 +1,6 @@
+# 网易蜗牛
+DOMAIN, p.du.163.com/ad, reject
+
 # Reject systems Upgrate
 DOMAIN,gdmf.apple.com, reject
 DOMAIN,mesu.apple.com, reject
