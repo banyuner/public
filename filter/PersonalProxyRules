@@ -3,6 +3,11 @@
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
 
+# hostloc
+USER-AGENT,hostloc*
+DOMAIN-KEYWORD,hostloc, proxy
+DOMAIN-SUFFIX,hostloc.com, proxy
+
 # > Fast
 DOMAIN-SUFFIX,fast.com
 
