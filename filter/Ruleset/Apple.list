@@ -1,54 +1,110 @@
 # 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 # > Apple
-DOMAIN-SUFFIX,aaplimg.com, direct
-DOMAIN-SUFFIX,apple.co, direct
-DOMAIN-SUFFIX,apple.com, direct
-DOMAIN-SUFFIX,appstore.com, direct
-DOMAIN-SUFFIX,cdn-apple.com, direct
-DOMAIN-SUFFIX,crashlytics.com, direct
-DOMAIN-SUFFIX,icloud.com, direct
-DOMAIN-SUFFIX,icloud-content.com, direct
-DOMAIN-SUFFIX,me.com, direct
-DOMAIN-SUFFIX,mzstatic.com, direct
-DOMAIN,www-cdn.icloud.com.akadns.net, direct
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,www-cdn.icloud.com.akadns.net
 
 # App Store
 # Store content such as apps, books, and music
-DOMAIN-SUFFIX, apps.apple.com, direct
-DOMAIN-SUFFIX, itunes.apple.com, direct
-DOMAIN-SUFFIX, itunes-apple.com.akadns.net, direct
-DOMAIN-SUFFIX, mzstatic.com, direct
-DOMAIN, ppq.apple.com, direct
+DOMAIN-SUFFIX, apps.apple.com
+DOMAIN-SUFFIX, itunes.apple.com
+DOMAIN-SUFFIX, itunes-apple.com.akadns.net
+DOMAIN-SUFFIX, mzstatic.com
+DOMAIN, ppq.apple.com
 
 # > App Store Connect
 DOMAIN, appstoreconnect.apple.com
-DOMAIN, iosapps-ssl.itunes.apple.com, direct
-DOMAIN, itcmobile.itunes.apple.com, direct
+DOMAIN, iosapps-ssl.itunes.apple.com
+DOMAIN, itcmobile.itunes.apple.com
 
 # iCloud
-DOMAIN-SUFFIX,apple-cloudkit.com,direct
-DOMAIN-SUFFIX,icloud.com,direct
-DOMAIN-SUFFIX,icloud.com.cn,direct
-DOMAIN-SUFFIX,icloud-content.com,direct
-DOMAIN,www-cdn.icloud.com.akadns.net,direct
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,icloud.com.cn
 
 #iCloud邮箱
-DOMAIN-SUFFIX,me.com,direct
-
 # Software Update
 # > iOS updates
-DOMAIN, appldnld.apple.com, direct
-DOMAIN, ns.itunes.apple.com, direct
+DOMAIN, appldnld.apple.com
+DOMAIN, ns.itunes.apple.com
 # > iOS, tvOS, and macOS
-DOMAIN, mesu.apple.com, direct
-DOMAIN, updates.cdn-apple.com, direct
-DOMAIN, updates-http.cdn-apple.com, direct
-DOMAIN, xp.apple.com, direct
+DOMAIN, mesu.apple.com
+DOMAIN, updates.cdn-apple.com
+DOMAIN, updates-http.cdn-apple.com
+DOMAIN, xp.apple.com
 
 # apple TV
-USER-AGENT, AppleTV*, direct
-USER-AGENT, com.apple.tv*, direct
-DOMAIN-SUFFIX, tv.apple.com, direct
-DOMAIN, hls.itunes.apple.com, direct
-DOMAIN, hls-amt.itunes.apple.com, direct
-DOMAIN, play-edge.itunes.apple.com, direct
+USER-AGENT, AppleTV*
+USER-AGENT, com.apple.tv*
+DOMAIN-SUFFIX, tv.apple.com
+DOMAIN, hls.itunes.apple.com
+DOMAIN, hls-amt.itunes.apple.com
+DOMAIN, play-edge.itunes.apple.com
+
+
+# 2021 11 add
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.com.cdn20.com
+DOMAIN-SUFFIX,apple.com.mwcloudcdn.com
+DOMAIN-SUFFIX,apple.com.mwcname.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appsto.re
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,itunes.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.com.edgekey.net.globalredir.akadns.net
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,apple
+DOMAIN,apple.comscoreresearch.com
+DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,testflight
+DOMAIN-KEYWORD,apple.com.akadns.net
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+IP-CIDR,192.35.50.0/24,no-resolve
+IP-CIDR,198.183.17.0/24,no-resolve
+IP-CIDR,205.180.175.0/24,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR6,2403:300::/32,no-resolve
+IP-CIDR6,2620:149::/32,no-resolve
+IP-CIDR6,2a01:b740::/32,no-resolve
+IP-CIDR6,2a01:b747::/32,no-resolve
+USER-AGENT,%E5%9C%B0%E5%9B%BE*
+USER-AGENT,%E6%9F%A5%E6%89%BE*
+USER-AGENT,%E8%AE%BE%E7%BD%AE*
+USER-AGENT,*WeatherFoundation*
+USER-AGENT,*com.apple.mobileme.fmip1*
+USER-AGENT,AppStore*
+USER-AGENT,AppleNews*
+USER-AGENT,AppleTV*
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,FindMy*
+USER-AGENT,Maps*
+USER-AGENT,Music*
+USER-AGENT,TestFlight*
+USER-AGENT,com.apple.Maps*
+USER-AGENT,com.apple.appstored*
+USER-AGENT,com.apple.geod*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
+USER-AGENT,fmflocatord*
+USER-AGENT,geod*
+USER-AGENT,locationd*
