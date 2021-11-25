@@ -5,8 +5,6 @@
 [Script]
 # ------------------------------------------------------------------#
 # get Cookie #!system=ios
-# 小米运动步数 account.huami.com
-小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/balusi/public/master/Scripts/xiaomi
 
 # JD https://bean.m.jd.com api.m.jd.com
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -49,4 +47,4 @@ http-request ^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ req
 
 
 [MITM]
-hostname = %INSERT% account.huami.com, *.iqiyi.com, activity-1.m.duiba.com.cn, api.weibo.cn, pay.sc.weibo.com, gameapi.hellobike.com,*.acfun.cn, *.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,c.tieba.baidu.com,api.m.jd.com
+hostname = %INSERT% *.iqiyi.com, activity-1.m.duiba.com.cn, api.weibo.cn, pay.sc.weibo.com, gameapi.hellobike.com,*.acfun.cn, *.bilibili.com,*.v2ex.com,*.smzdm.com, www.52pojie.cn,manga.bilibili.com,c.tieba.baidu.com,api.m.jd.com
