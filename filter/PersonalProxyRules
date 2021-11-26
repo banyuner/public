@@ -1,3 +1,11 @@
+# discord
+DOMAIN-SUFFIX,discord.co, proxy
+DOMAIN-SUFFIX,discord.com, proxy
+DOMAIN-SUFFIX,discord.gg, proxy
+DOMAIN-SUFFIX,discord.media, proxy
+DOMAIN-SUFFIX,discordapp.com, proxy
+DOMAIN-SUFFIX,discordapp.net, proxy
+
 # > Speedtest by Ookla
 # USER-AGENT,SpeedTest*
 DOMAIN-KEYWORD,speedtest, proxy
