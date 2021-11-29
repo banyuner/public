@@ -12,7 +12,7 @@ DOMAIN-KEYWORD,speedtest, proxy
 DOMAIN-SUFFIX,ooklaserver.net, proxy
 
 # hostloc
-USER-AGENT,hostloc*
+# USER-AGENT,hostloc*
 DOMAIN-KEYWORD,hostloc, proxy
 DOMAIN-SUFFIX,hostloc.com, proxy
 
