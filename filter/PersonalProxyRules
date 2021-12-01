@@ -6,18 +6,10 @@ DOMAIN-SUFFIX,discord.media, proxy
 DOMAIN-SUFFIX,discordapp.com, proxy
 DOMAIN-SUFFIX,discordapp.net, proxy
 
-# > Speedtest by Ookla
-# USER-AGENT,SpeedTest*
-DOMAIN-KEYWORD,speedtest, proxy
-DOMAIN-SUFFIX,ooklaserver.net, proxy
-
 # hostloc
 # USER-AGENT,hostloc*
 DOMAIN-KEYWORD,hostloc, proxy
 DOMAIN-SUFFIX,hostloc.com, proxy
-
-# > Fast
-DOMAIN-SUFFIX,fast.com, proxy
 
 # ovh
 DOMAIN-KEYWORD, ovhcloud, proxy
