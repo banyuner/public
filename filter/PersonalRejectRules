@@ -1,5 +1,5 @@
 # 网易蜗牛
-# DOMAIN, p.du.163.com/ad, reject
+DOMAIN-SUFFIX, nosdn.127.net, reject
 
 # Reject systems Upgrate
 DOMAIN,gdmf.apple.com, reject
