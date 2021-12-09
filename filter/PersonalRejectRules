@@ -1,5 +1,5 @@
 # 网易蜗牛
-DOMAIN-SUFFIX, nosdn.127.net, reject
+DOMAIN-SUFFIX, easyreadfs.nosdn.127.net, reject
 
 # Reject systems Upgrate
 DOMAIN,gdmf.apple.com, reject
