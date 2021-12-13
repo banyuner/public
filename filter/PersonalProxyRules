@@ -139,17 +139,12 @@ DOMAIN-SUFFIX,app.smartmailcloud.com,proxy
 DOMAIN-SUFFIX, firebaseio.com,proxy
 DOMAIN-SUFFIX, gate.hockeyapp.net,proxy
 
-#pixiv
-DOMAIN-KEYWORD,pixiv,proxy
-
-#epic 限免消息
-DOMAIN, rsshub.app, proxy
-
 # api 代理
 DOMAIN-KEYWORD,gfwsb.114514,proxy
 
 # anki
 DOMAIN-KEYWORD,anki, proxy
+DOMAIN-KEYWORD,ankiweb, proxy
 
 # v2ex
 DOMAIN-SUFFIX, v2ex.com, proxy
@@ -189,3 +184,5 @@ DOMAIN-SUFFIX, amazonaws.com, proxy
 
 #epic
 DOMAIN-KEYWORD, epicgames, proxy
+#epic 限免消息
+DOMAIN, rsshub.app, proxy
