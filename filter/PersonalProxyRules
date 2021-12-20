@@ -16,12 +16,18 @@ DOMAIN-KEYWORD, ovhcloud, proxy
 DOMAIN-SUFFIX, ovhcloud.com, proxy
 
 # wiki
-DOMAIN-KEYWORD, wikipedia, proxy
-DOMAIN-SUFFIX, wikipedia.org, proxy
-
-# driver and image bed
-# DOMAIN-KEYWORD, tozcs, proxy
-# DOMAIN-SUFFIX, tozcs.com, proxy
+DOMAIN-SUFFIX,mediawiki.org, proxy
+DOMAIN-SUFFIX,wikibooks.org, proxy
+DOMAIN-SUFFIX,wikidata.org, proxy
+DOMAIN-SUFFIX,wikileaks.org, proxy
+DOMAIN-SUFFIX,wikimedia.org, proxy
+DOMAIN-SUFFIX,wikinews.org, proxy
+DOMAIN-SUFFIX,wikipedia.org, proxy
+DOMAIN-SUFFIX,wikiquote.org, proxy
+DOMAIN-SUFFIX,wikisource.org, proxy
+DOMAIN-SUFFIX,wikiversity.org, proxy
+DOMAIN-SUFFIX,wikivoyage.org, proxy
+DOMAIN-SUFFIX,wiktionary.org, proxy
 
 # teamviewer
 DOMAIN-KEYWORD, teamviewer, proxy
@@ -30,7 +36,21 @@ DOMAIN-KEYWORD, teamviewer, proxy
 DOMAIN-KEYWORD, freenom, proxy
 
 # stackoverflow
-DOMAIN-KEYWORD, stackoverflow, proxy
+DOMAIN-SUFFIX,askubuntu.com, proxy
+DOMAIN-SUFFIX,blogoverflow.com, proxy
+DOMAIN-SUFFIX,mathoverflow.net, proxy
+DOMAIN-SUFFIX,serverfault.com, proxy
+DOMAIN-SUFFIX,sstatic.net, proxy
+DOMAIN-SUFFIX,stackapps.com, proxy
+DOMAIN-SUFFIX,stackexchange.com, proxy
+DOMAIN-SUFFIX,stackmod.blog, proxy
+DOMAIN-SUFFIX,stackoverflow.blog, proxy
+DOMAIN-SUFFIX,stackoverflow.com, proxy
+DOMAIN-SUFFIX,stackoverflowbusiness.com, proxy
+DOMAIN-SUFFIX,stacksnippets.net, proxy
+DOMAIN-SUFFIX,superuser.com, proxy
+DOMAIN-SUFFIX,tex-talk.net, proxy
+DOMAIN-SUFFIX,thesffblog.com, proxy
 
 # cloudflare
 DOMAIN-SUFFIX, cloudflare.com, proxy
@@ -50,10 +70,34 @@ IP-CIDR,172.64.0.0/13, proxy
 IP-CIDR,131.0.72.0/22, proxy
 
 # GitHub
-DOMAIN-KEYWORD, github, proxy
-DOMAIN-SUFFIX, githubstatus.com, proxy
-DOMAIN-SUFFIX, githubusercontent.com, proxy
-DOMAIN-SUFFIX, githubassets.com, proxy
+DOMAIN-SUFFIX,atom.io, proxy
+DOMAIN-SUFFIX,dependabot.com, proxy
+DOMAIN-SUFFIX,ghcr.io, proxy
+DOMAIN-SUFFIX,git.io, proxy
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net, proxy
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com, proxy
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com, proxy
+DOMAIN-SUFFIX,github.blog, proxy
+DOMAIN-SUFFIX,github.com, proxy
+DOMAIN-SUFFIX,github.community, proxy
+DOMAIN-SUFFIX,github.dev, proxy
+DOMAIN-SUFFIX,github.io, proxy
+DOMAIN-SUFFIX,githubapp.com, proxy
+DOMAIN-SUFFIX,githubassets.com, proxy
+DOMAIN-SUFFIX,githubhackathon.com, proxy
+DOMAIN-SUFFIX,githubpreview.dev, proxy
+DOMAIN-SUFFIX,githubstatus.com, proxy
+DOMAIN-SUFFIX,githubuniverse.com, proxy
+DOMAIN-SUFFIX,githubusercontent.com, proxy
+DOMAIN-SUFFIX,myoctocat.com, proxy
+DOMAIN-SUFFIX,npm.community, proxy
+DOMAIN-SUFFIX,npmjs.com, proxy
+DOMAIN-SUFFIX,npmjs.org, proxy
+DOMAIN-SUFFIX,rawgit.com, proxy
+DOMAIN-SUFFIX,rawgithub.com, proxy
+DOMAIN-SUFFIX,thegithubshop.com, proxy
+
+
 
 # Clubhouse规则
 DOMAIN-SUFFIX,clubhouseapi.com, proxy
@@ -112,32 +156,22 @@ DOMAIN, aod.itunes.apple.com, proxy
 DOMAIN, mvod.itunes.apple.com, proxy
 DOMAIN, streamingaudio.itunes.apple.com, proxy
 
-# > Apple News
-DOMAIN, gateway.icloud.com, proxy
-DOMAIN, gspe1-ssl.ls.apple.com, proxy
-DOMAIN-SUFFIX, apple.news, proxy
-DOMAIN, news-client.apple.com, proxy
-DOMAIN, news-edge.apple.com, proxy
-DOMAIN, news-events.apple.com, proxy
-DOMAIN, apple.comscoreresearch.com, proxy
-
 # Siri
 DOMAIN, guzzoni.apple.com, proxy
 
-# box
-DOMAIN,8.8.8.8, proxy
+# reddit
+DOMAIN-SUFFIX,redd.it,proxy
+DOMAIN-SUFFIX,reddit.com,proxy
+DOMAIN-SUFFIX,redditmail.com,proxy
+DOMAIN-SUFFIX,redditmedia.com,proxy
+DOMAIN-SUFFIX,redditstatic.com,proxy
 
-#reddit
-DOMAIN-SUFFIX,preview.redd.it,proxy
-DOMAIN-SUFFIX,external-preview.redd.it,proxy
-DOMAIN-SUFFIX,v.redd.it,proxy
-DOMAIN-SUFFIX,i.redd.it,proxy
-
-#Spark
-DOMAIN-SUFFIX, api.amplitude.com,proxy
-DOMAIN-SUFFIX,app.smartmailcloud.com,proxy
-DOMAIN-SUFFIX, firebaseio.com,proxy
-DOMAIN-SUFFIX, gate.hockeyapp.net,proxy
+# Spark
+DOMAIN-SUFFIX,amplitude.com,proxy
+DOMAIN-SUFFIX,firebaseio.com,proxy
+DOMAIN-SUFFIX,hockeyapp.net,proxy
+DOMAIN-SUFFIX,readdle.com,proxy
+DOMAIN-SUFFIX,smartmailcloud.com,proxy
 
 # api 代理
 DOMAIN-KEYWORD,gfwsb.114514,proxy
@@ -158,6 +192,9 @@ DOMAIN-SUFFIX, intercomcdn.com, proxy
 DOMAIN-SUFFIX, amplitude.com, proxy
 DOMAIN-SUFFIX, notion.so, proxy
 DOMAIN-SUFFIX, amazonaws.com, proxy
+DOMAIN-SUFFIX,notion-static.com, proxy
+DOMAIN-SUFFIX,notion.new, proxy
+DOMAIN-SUFFIX,notion.so, proxy
 
 
 # 极致版
@@ -181,8 +218,19 @@ DOMAIN-SUFFIX, amazonaws.com, proxy
 # #DOMAIN-SUFFIX,twimg.com, proxy
 # #DOMAIN-SUFFIX,twitter.com, proxy
 
-
-#epic
-DOMAIN-KEYWORD, epicgames, proxy
 #epic 限免消息
 DOMAIN, rsshub.app, proxy
+DOMAIN-KEYWORD, epicgames, proxy
+DOMAIN-SUFFIX,battlebreakers.com, proxy
+DOMAIN-SUFFIX,eac-cdn.com, proxy
+DOMAIN-SUFFIX,easy.ac, proxy
+DOMAIN-SUFFIX,easyanticheat.net, proxy
+DOMAIN-SUFFIX,fortnite.com, proxy
+DOMAIN-SUFFIX,helpshift.com, proxy
+DOMAIN-SUFFIX,paragon.com, proxy
+DOMAIN-SUFFIX,playparagon.com, proxy
+DOMAIN-SUFFIX,roborecall.com, proxy
+DOMAIN-SUFFIX,shadowcomplex.com, proxy
+DOMAIN-SUFFIX,spyjinx.com, proxy
+DOMAIN-SUFFIX,unrealengine.com, proxy
+DOMAIN-SUFFIX,unrealtournament.com, proxy
