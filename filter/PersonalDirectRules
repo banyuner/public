@@ -1,5 +1,7 @@
 # school
 DOMAIN-SUFFIX, edu.cn, direct
+DOMAIN-KEYWORD, msftconnecttest, direct
+DOMAIN-SUFFIX, msftconnecttest.com, direct
 
 # roamedit
 DOMAIN-KEYWORD, roamedit, direct
