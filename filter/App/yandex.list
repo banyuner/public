@@ -1,7 +1,7 @@
 # > yandex
 # USER-AGENT,yandex*
 # USER-AGENT,yoomoney*
-DOMAIN-KEYWORD,yandex
-DOMAIN-KEYWORD,yoomoney
-DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,yoomoney.ru
+DOMAIN-KEYWORD, yandex, proxy
+DOMAIN-KEYWORD, yoomoney, proxy
+DOMAIN-SUFFIX, yandex.ru, proxy
+DOMAIN-SUFFIX, yoomoney.ru, proxy
