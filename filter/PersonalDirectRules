@@ -1,5 +1,3 @@
-# 高德地图
-DOMAIN, page.amap.com, direct
 # school
 DOMAIN-SUFFIX, edu.cn, direct
 DOMAIN-KEYWORD, msftconnecttest, direct
