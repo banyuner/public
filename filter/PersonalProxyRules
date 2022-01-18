@@ -52,6 +52,50 @@ DOMAIN-SUFFIX,superuser.com, proxy
 DOMAIN-SUFFIX,tex-talk.net, proxy
 DOMAIN-SUFFIX,thesffblog.com, proxy
 
+# cloudflare
+DOMAIN-SUFFIX, cloudflare.com, proxy
+IP-CIDR,173.245.48.0/20, proxy
+IP-CIDR,103.21.244.0/22, proxy
+IP-CIDR,103.22.200.0/22, proxy
+IP-CIDR,103.31.4.0/22, proxy
+IP-CIDR,141.101.64.0/18, proxy
+IP-CIDR,108.162.192.0/18, proxy
+IP-CIDR,190.93.240.0/20, proxy
+IP-CIDR,188.114.96.0/20, proxy
+IP-CIDR,197.234.240.0/22, proxy
+IP-CIDR,198.41.128.0/17, proxy
+IP-CIDR,162.158.0.0/15, proxy
+IP-CIDR,104.16.0.0/12, proxy
+IP-CIDR,172.64.0.0/13, proxy
+IP-CIDR,131.0.72.0/22, proxy
+
+# GitHub
+DOMAIN-SUFFIX,atom.io, proxy
+DOMAIN-SUFFIX,dependabot.com, proxy
+DOMAIN-SUFFIX,ghcr.io, proxy
+DOMAIN-SUFFIX,git.io, proxy
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net, proxy
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com, proxy
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com, proxy
+DOMAIN-SUFFIX,github.blog, proxy
+DOMAIN-SUFFIX,github.com, proxy
+DOMAIN-SUFFIX,github.community, proxy
+DOMAIN-SUFFIX,github.dev, proxy
+DOMAIN-SUFFIX,github.io, proxy
+DOMAIN-SUFFIX,githubapp.com, proxy
+DOMAIN-SUFFIX,githubassets.com, proxy
+DOMAIN-SUFFIX,githubhackathon.com, proxy
+DOMAIN-SUFFIX,githubpreview.dev, proxy
+DOMAIN-SUFFIX,githubstatus.com, proxy
+DOMAIN-SUFFIX,githubuniverse.com, proxy
+DOMAIN-SUFFIX,githubusercontent.com, proxy
+DOMAIN-SUFFIX,myoctocat.com, proxy
+DOMAIN-SUFFIX,npm.community, proxy
+DOMAIN-SUFFIX,npmjs.com, proxy
+DOMAIN-SUFFIX,npmjs.org, proxy
+DOMAIN-SUFFIX,rawgit.com, proxy
+DOMAIN-SUFFIX,rawgithub.com, proxy
+DOMAIN-SUFFIX,thegithubshop.com, proxy
 
 # Clubhouse规则
 DOMAIN-SUFFIX,clubhouseapi.com, proxy
