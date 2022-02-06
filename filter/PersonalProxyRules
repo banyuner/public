@@ -191,9 +191,10 @@ DOMAIN-SUFFIX, amplitude.com, proxy
 DOMAIN-SUFFIX, notion.so, proxy
 DOMAIN-SUFFIX, amazonaws.com, proxy
 DOMAIN-SUFFIX,notion-static.com, proxy
+DOMAIN-SUFFIX,notion.com, proxy
+DOMAIN-SUFFIX,notion.site, proxy
 DOMAIN-SUFFIX,notion.new, proxy
 DOMAIN-SUFFIX,notion.so, proxy
-
 
 # 极致版
 # DOMAIN-SUFFIX,notion.so, proxy
