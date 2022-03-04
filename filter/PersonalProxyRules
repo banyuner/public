@@ -1,3 +1,7 @@
+# Quora
+DOMAIN-SUFFIX,quora.com, proxy
+DOMAIN-SUFFIX,quoracdn.net, proxy
+
 # discord
 DOMAIN-SUFFIX,discord.co, proxy
 DOMAIN-SUFFIX,discord.com, proxy
