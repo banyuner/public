@@ -1,0 +1,240 @@
+# Quora
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,quoracdn.net
+DOMAIN-SUFFIX,quora.fr
+
+# discord
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+# hostloc
+# USER-AGENT,hostloc*
+DOMAIN-KEYWORD,hostloc
+DOMAIN-SUFFIX,hostloc.com
+
+# ovh
+DOMAIN-KEYWORD, ovhcloud
+DOMAIN-SUFFIX, ovhcloud.com
+
+# wiki
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+
+# teamviewer
+DOMAIN-KEYWORD, teamviewer
+
+# freemon
+DOMAIN-KEYWORD, freenom
+
+# stackoverflow
+DOMAIN-SUFFIX,askubuntu.com
+DOMAIN-SUFFIX,blogoverflow.com
+DOMAIN-SUFFIX,mathoverflow.net
+DOMAIN-SUFFIX,serverfault.com
+DOMAIN-SUFFIX,sstatic.net
+DOMAIN-SUFFIX,stackapps.com
+DOMAIN-SUFFIX,stackexchange.com
+DOMAIN-SUFFIX,stackmod.blog
+DOMAIN-SUFFIX,stackoverflow.blog
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,stackoverflowbusiness.com
+DOMAIN-SUFFIX,stacksnippets.net
+DOMAIN-SUFFIX,superuser.com
+DOMAIN-SUFFIX,tex-talk.net
+DOMAIN-SUFFIX,thesffblog.com
+
+# cloudflare
+DOMAIN-SUFFIX, cloudflare.com
+IP-CIDR,173.245.48.0/20
+IP-CIDR,103.21.244.0/22
+IP-CIDR,103.22.200.0/22
+IP-CIDR,103.31.4.0/22
+IP-CIDR,141.101.64.0/18
+IP-CIDR,108.162.192.0/18
+IP-CIDR,190.93.240.0/20
+IP-CIDR,188.114.96.0/20
+IP-CIDR,197.234.240.0/22
+IP-CIDR,198.41.128.0/17
+IP-CIDR,162.158.0.0/15
+IP-CIDR,104.16.0.0/12
+IP-CIDR,172.64.0.0/13
+IP-CIDR,131.0.72.0/22
+
+# GitHub
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,thegithubshop.com
+
+# Clubhouse规则
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,joinclubhouse.com
+DOMAIN,clubhouseprod.s3.amazonaws.com
+DOMAIN,clubhouse.pubnub.com
+IP-CIDR,45.255.124.0/24
+IP-CIDR,129.227.57.0/24
+IP-CIDR,23.248.191.0/24
+IP-CIDR,164.52.6.0/24
+IP-CIDR,103.65.41.0/24
+IP-CIDR,164.52.0.0/24
+IP-CIDR,202.226.25.0/24
+IP-CIDR,129.227.71.0/24
+IP-CIDR,164.52.102.0/24
+IP-CIDR,5.28.194.0/24
+IP-CIDR,199.190.44.0/24
+IP-CIDR,169.197.112.0/24
+IP-CIDR,52.58.56.0/24
+IP-CIDR,164.52.102.66/32
+IP-CIDR,164.52.102.67/32
+IP-CIDR,164.52.102.68/32
+IP-CIDR,164.52.102.69/32
+IP-CIDR,164.52.102.70/32
+IP-CIDR,164.52.102.75/32
+IP-CIDR,164.52.102.76/32
+IP-CIDR,164.52.102.77/32
+IP-CIDR,199.190.44.36/32
+IP-CIDR,199.190.44.37/32
+
+# 索尼看剧，需🇺🇸 IP www.crackle.com
+DOMAIN-SUFFIX, crackle.com
+
+# ion
+DOMAIN-SUFFIX, krypt.com
+
+# moneypro
+DOMAIN,data.flurry.com,proxy
+DOMAIN-KEYWORD,moneypro,proxy
+
+# beancount
+DOMAIN,beancount.io,proxy
+DOMAIN,exp.host,proxy
+
+# TestFlight
+DOMAIN, beta.apple.com
+DOMAIN, testflight.apple.com
+
+# > iCloud email
+DOMAIN-SUFFIX, mail.icloud.com.cn
+DOMAIN-SUFFIX, mail.me.com
+
+# > Apple Music
+USER-AGENT, Music*
+DOMAIN, aod.itunes.apple.com
+DOMAIN, mvod.itunes.apple.com
+DOMAIN, streamingaudio.itunes.apple.com
+
+# Siri
+DOMAIN, guzzoni.apple.com
+
+# reddit
+DOMAIN-SUFFIX,redd.it,proxy
+DOMAIN-SUFFIX,reddit.com,proxy
+DOMAIN-SUFFIX,redditmail.com,proxy
+DOMAIN-SUFFIX,redditmedia.com,proxy
+DOMAIN-SUFFIX,redditstatic.com,proxy
+
+# Spark
+DOMAIN-SUFFIX,amplitude.com,proxy
+DOMAIN-SUFFIX,firebaseio.com,proxy
+DOMAIN-SUFFIX,hockeyapp.net,proxy
+DOMAIN-SUFFIX,readdle.com,proxy
+DOMAIN-SUFFIX,smartmailcloud.com,proxy
+
+# api 代理
+DOMAIN-KEYWORD,gfwsb.114514,proxy
+
+# anki
+DOMAIN-KEYWORD,anki
+DOMAIN-KEYWORD,ankiweb
+
+# v2ex
+DOMAIN-SUFFIX, v2ex.com
+
+# notion
+# 精简版
+DOMAIN-SUFFIX, loggly.com
+DOMAIN-SUFFIX, segment.com
+DOMAIN-SUFFIX, intercom.io
+DOMAIN-SUFFIX, intercomcdn.com
+DOMAIN-SUFFIX, amplitude.com
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, amazonaws.com
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX,notion.so
+
+# 极致版
+# DOMAIN-SUFFIX,notion.so
+# DOMAIN-SUFFIX,amazonaws.com
+# DOMAIN-SUFFIX,amplitude.com
+# DOMAIN-SUFFIX,app-measurement.com
+# DOMAIN-SUFFIX,cloudflare.com
+# DOMAIN-SUFFIX,contentful.com
+# DOMAIN-SUFFIX,ctfassets.net
+# DOMAIN-SUFFIX,embed.ly
+# DOMAIN-SUFFIX,intercom.io
+# DOMAIN-SUFFIX,intercomcdn.com
+# DOMAIN-SUFFIX,loggly.com
+# DOMAIN-SUFFIX,segment.com
+# DOMAIN-SUFFIX,segment.io
+# DOMAIN-SUFFIX,stripe.com
+# DOMAIN-SUFFIX,typeform.com
+# DOMAIN-SUFFIX,unsplash.com
+# #DOMAIN-SUFFIX,google.com
+# #DOMAIN-SUFFIX,twimg.com
+# #DOMAIN-SUFFIX,twitter.com
+
+#epic 限免消息
+DOMAIN, rsshub.app
+DOMAIN-KEYWORD, epicgames
+DOMAIN-SUFFIX,battlebreakers.com
+DOMAIN-SUFFIX,eac-cdn.com
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN-SUFFIX,fortnite.com
+DOMAIN-SUFFIX,helpshift.com
+DOMAIN-SUFFIX,paragon.com
+DOMAIN-SUFFIX,playparagon.com
+DOMAIN-SUFFIX,roborecall.com
+DOMAIN-SUFFIX,shadowcomplex.com
+DOMAIN-SUFFIX,spyjinx.com
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,unrealtournament.com
