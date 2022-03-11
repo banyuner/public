@@ -57,22 +57,7 @@ DOMAIN-SUFFIX,superuser.com, proxy
 DOMAIN-SUFFIX,tex-talk.net, proxy
 DOMAIN-SUFFIX,thesffblog.com, proxy
 
-# cloudflare
-DOMAIN-SUFFIX, cloudflare.com, proxy
-IP-CIDR,173.245.48.0/20, proxy
-IP-CIDR,103.21.244.0/22, proxy
-IP-CIDR,103.22.200.0/22, proxy
-IP-CIDR,103.31.4.0/22, proxy
-IP-CIDR,141.101.64.0/18, proxy
-IP-CIDR,108.162.192.0/18, proxy
-IP-CIDR,190.93.240.0/20, proxy
-IP-CIDR,188.114.96.0/20, proxy
-IP-CIDR,197.234.240.0/22, proxy
-IP-CIDR,198.41.128.0/17, proxy
-IP-CIDR,162.158.0.0/15, proxy
-IP-CIDR,104.16.0.0/12, proxy
-IP-CIDR,172.64.0.0/13, proxy
-IP-CIDR,131.0.72.0/22, proxy
+
 
 # GitHub
 DOMAIN-SUFFIX,atom.io, proxy
@@ -101,35 +86,6 @@ DOMAIN-SUFFIX,npmjs.org, proxy
 DOMAIN-SUFFIX,rawgit.com, proxy
 DOMAIN-SUFFIX,rawgithub.com, proxy
 DOMAIN-SUFFIX,thegithubshop.com, proxy
-
-# Clubhouse规则
-DOMAIN-SUFFIX,clubhouseapi.com, proxy
-DOMAIN-SUFFIX,joinclubhouse.com, proxy
-DOMAIN,clubhouseprod.s3.amazonaws.com, proxy
-DOMAIN,clubhouse.pubnub.com, proxy
-IP-CIDR,45.255.124.0/24, proxy
-IP-CIDR,129.227.57.0/24, proxy
-IP-CIDR,23.248.191.0/24, proxy
-IP-CIDR,164.52.6.0/24, proxy
-IP-CIDR,103.65.41.0/24, proxy
-IP-CIDR,164.52.0.0/24, proxy
-IP-CIDR,202.226.25.0/24, proxy
-IP-CIDR,129.227.71.0/24, proxy
-IP-CIDR,164.52.102.0/24, proxy
-IP-CIDR,5.28.194.0/24, proxy
-IP-CIDR,199.190.44.0/24, proxy
-IP-CIDR,169.197.112.0/24, proxy
-IP-CIDR,52.58.56.0/24, proxy
-IP-CIDR,164.52.102.66/32, proxy
-IP-CIDR,164.52.102.67/32, proxy
-IP-CIDR,164.52.102.68/32, proxy
-IP-CIDR,164.52.102.69/32, proxy
-IP-CIDR,164.52.102.70/32, proxy
-IP-CIDR,164.52.102.75/32, proxy
-IP-CIDR,164.52.102.76/32, proxy
-IP-CIDR,164.52.102.77/32, proxy
-IP-CIDR,199.190.44.36/32, proxy
-IP-CIDR,199.190.44.37/32, proxy
 
 # 索尼看剧，需🇺🇸 IP www.crackle.com
 DOMAIN-SUFFIX, crackle.com, proxy
@@ -238,3 +194,52 @@ DOMAIN-SUFFIX,shadowcomplex.com, proxy
 DOMAIN-SUFFIX,spyjinx.com, proxy
 DOMAIN-SUFFIX,unrealengine.com, proxy
 DOMAIN-SUFFIX,unrealtournament.com, proxy
+
+
+# 所有非 IP 类规则置于规则的顶部，将 IP 类规则置于尾部，避免并不需要进行本地 DNS 查询的请求产生额外的 DNS 查询
+
+# cloudflare
+DOMAIN-SUFFIX, cloudflare.com, proxy
+IP-CIDR,173.245.48.0/20, proxy, no-resolve
+IP-CIDR,103.21.244.0/22, proxy, no-resolve
+IP-CIDR,103.22.200.0/22, proxy, no-resolve
+IP-CIDR,103.31.4.0/22, proxy, no-resolve
+IP-CIDR,141.101.64.0/18, proxy, no-resolve
+IP-CIDR,108.162.192.0/18, proxy, no-resolve
+IP-CIDR,190.93.240.0/20, proxy, no-resolve
+IP-CIDR,188.114.96.0/20, proxy, no-resolve
+IP-CIDR,197.234.240.0/22, proxy, no-resolve
+IP-CIDR,198.41.128.0/17, proxy, no-resolve
+IP-CIDR,162.158.0.0/15, proxy, no-resolve
+IP-CIDR,104.16.0.0/12, proxy, no-resolve
+IP-CIDR,172.64.0.0/13, proxy, no-resolve
+IP-CIDR,131.0.72.0/22, proxy, no-resolve
+
+# Clubhouse规则
+DOMAIN-SUFFIX,clubhouseapi.com, proxy
+DOMAIN-SUFFIX,joinclubhouse.com, proxy
+DOMAIN,clubhouseprod.s3.amazonaws.com, proxy
+DOMAIN,clubhouse.pubnub.com, proxy
+IP-CIDR,45.255.124.0/24, proxy, no-resolve
+IP-CIDR,129.227.57.0/24, proxy, no-resolve
+IP-CIDR,23.248.191.0/24, proxy, no-resolve
+IP-CIDR,164.52.6.0/24, proxy, no-resolve
+IP-CIDR,103.65.41.0/24, proxy, no-resolve
+IP-CIDR,164.52.0.0/24, proxy, no-resolve
+IP-CIDR,202.226.25.0/24, proxy, no-resolve
+IP-CIDR,129.227.71.0/24, proxy, no-resolve
+IP-CIDR,164.52.102.0/24, proxy, no-resolve
+IP-CIDR,5.28.194.0/24, proxy, no-resolve
+IP-CIDR,199.190.44.0/24, proxy, no-resolve
+IP-CIDR,169.197.112.0/24, proxy, no-resolve
+IP-CIDR,52.58.56.0/24, proxy, no-resolve
+IP-CIDR,164.52.102.66/32, proxy, no-resolve
+IP-CIDR,164.52.102.67/32, proxy, no-resolve
+IP-CIDR,164.52.102.68/32, proxy, no-resolve
+IP-CIDR,164.52.102.69/32, proxy, no-resolve
+IP-CIDR,164.52.102.70/32, proxy, no-resolve
+IP-CIDR,164.52.102.75/32, proxy, no-resolve
+IP-CIDR,164.52.102.76/32, proxy, no-resolve
+IP-CIDR,164.52.102.77/32, proxy, no-resolve
+IP-CIDR,199.190.44.36/32, proxy, no-resolve
+IP-CIDR,199.190.44.37/32, proxy, no-resolve
