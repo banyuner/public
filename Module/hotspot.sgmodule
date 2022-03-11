@@ -1,0 +1,6 @@
+#!name=Hotspot Access
+#!desc=允许热点连接代理
+#!system=ios
+
+[General]
+allow-hotspot-access = true
