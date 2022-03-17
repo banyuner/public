@@ -1,19 +1,8 @@
 # 网易蜗牛
 # DOMAIN-SUFFIX, easyreadfs.nosdn.127.net, reject
 
-# Reject systems Upgrate
-DOMAIN,gdmf.apple.com, reject
-DOMAIN,mesu.apple.com, reject
-DOMAIN,updates-http.cdn-apple.com, reject
-DOMAIN,xp.apple.com, reject
-
 # Apple certification verify
 DOMAIN,ocsp.apple.com, reject
-
-# reject Mac Update
-DOMAIN, swscan.apple.com, reject
-DOMAIN, swcdn.apple.com, reject
-DOMAIN, swdist.apple.com, reject
 
 # 极光和友盟 广告
 DOMAIN-SUFFIX, jpush.cn, reject
