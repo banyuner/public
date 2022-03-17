@@ -1,0 +1,16 @@
+# Reject systems Upgrate
+DOMAIN,gdmf.apple.com,reject
+DOMAIN,gdmf.apple.com.akadns.net,reject
+DOMAIN,mesu.apple.com,reject
+DOMAIN,mesu-cdn.apple.com.akadns.net,reject
+DOMAIN,mesu-cdn.origin-apple.com.akadns.net,reject
+DOMAIN,mesu.g.aaplimg.com,reject
+DOMAIN,appldnld.apple.com,reject
+DOMAIN,appldnld.apple.com.akadns.net,reject
+DOMAIN,updates-http.cdn-apple.com, reject
+DOMAIN,xp.apple.com, reject
+
+# reject Mac Update
+DOMAIN, swscan.apple.com, reject
+DOMAIN, swcdn.apple.com, reject
+DOMAIN, swdist.apple.com, reject
