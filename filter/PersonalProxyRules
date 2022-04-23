@@ -3,6 +3,8 @@ DOMAIN-SUFFIX,roamresearch.com, proxy
 DOMAIN-SUFFIX,sentry-cdn.com, proxy
 DOMAIN-SUFFIX,sentry.io, proxy
 DOMAIN-SUFFIX,stripe.network, proxy
+DOMAIN-SUFFIX,stripe.com, proxy
+DOMAIN-SUFFIX,cloudfunctions.net, proxy
 
 # Quora
 DOMAIN-SUFFIX,quora.com, proxy
