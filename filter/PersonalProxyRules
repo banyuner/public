@@ -11,14 +11,6 @@ DOMAIN-SUFFIX,quora.com, proxy
 DOMAIN-SUFFIX,quoracdn.net, proxy
 DOMAIN-SUFFIX,quora.fr, proxy
 
-# discord
-DOMAIN-SUFFIX,discord.co, proxy
-DOMAIN-SUFFIX,discord.com, proxy
-DOMAIN-SUFFIX,discord.gg, proxy
-DOMAIN-SUFFIX,discord.media, proxy
-DOMAIN-SUFFIX,discordapp.com, proxy
-DOMAIN-SUFFIX,discordapp.net, proxy
-
 # hostloc
 # USER-AGENT,hostloc*
 DOMAIN-KEYWORD,hostloc, proxy
@@ -131,9 +123,6 @@ DOMAIN-SUFFIX,hockeyapp.net,proxy
 DOMAIN-SUFFIX,readdle.com,proxy
 DOMAIN-SUFFIX,smartmailcloud.com,proxy
 
-# api 代理
-DOMAIN-KEYWORD,gfwsb.114514,proxy
-
 # anki
 DOMAIN-KEYWORD,anki, proxy
 DOMAIN-KEYWORD,ankiweb, proxy
@@ -177,7 +166,7 @@ DOMAIN-SUFFIX,notion.so, proxy
 # #DOMAIN-SUFFIX,twimg.com, proxy
 # #DOMAIN-SUFFIX,twitter.com, proxy
 
-#epic 限免消息
+# epic 限免消息
 DOMAIN, rsshub.app, proxy
 DOMAIN-KEYWORD, epicgames, proxy
 DOMAIN-SUFFIX,battlebreakers.com, proxy
@@ -193,7 +182,6 @@ DOMAIN-SUFFIX,shadowcomplex.com, proxy
 DOMAIN-SUFFIX,spyjinx.com, proxy
 DOMAIN-SUFFIX,unrealengine.com, proxy
 DOMAIN-SUFFIX,unrealtournament.com, proxy
-
 
 # 所有非 IP 类规则置于规则的顶部，将 IP 类规则置于尾部，避免并不需要进行本地 DNS 查询的请求产生额外的 DNS 查询
 
