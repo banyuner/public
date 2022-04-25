@@ -65,8 +65,6 @@ DOMAIN-SUFFIX,superuser.com, proxy
 DOMAIN-SUFFIX,tex-talk.net, proxy
 DOMAIN-SUFFIX,thesffblog.com, proxy
 
-
-
 # GitHub
 DOMAIN-SUFFIX,atom.io, proxy
 DOMAIN-SUFFIX,dependabot.com, proxy
@@ -125,13 +123,6 @@ DOMAIN, streamingaudio.itunes.apple.com, proxy
 
 # Siri
 DOMAIN, guzzoni.apple.com, proxy
-
-# reddit
-DOMAIN-SUFFIX,redd.it,proxy
-DOMAIN-SUFFIX,reddit.com,proxy
-DOMAIN-SUFFIX,redditmail.com,proxy
-DOMAIN-SUFFIX,redditmedia.com,proxy
-DOMAIN-SUFFIX,redditstatic.com,proxy
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com,proxy
