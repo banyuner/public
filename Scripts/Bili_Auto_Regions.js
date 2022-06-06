@@ -78,7 +78,7 @@ let run = EnvInfo();
 async function SwitchRegion(play) {
 	const Group = $.read('BiliArea_Policy') || '📺 𝓑𝓲𝓵𝓲𝓫𝓲𝓵𝓲'; //Your blibli policy group name.
 	const CN = $.read('BiliArea_CN') || '🎯 𝓓𝓲𝓻𝓮𝓬𝓽'; //Your China sub-policy name.
-	const TW = $.read('BiliArea_TW') || '🇹🇼 𝓣𝓪𝓲𝔀𝓪𝓷'; //Your Taiwan sub-policy name.
+	const TW = $.read('BiliArea_TW') || '🇨🇳 𝓣𝓪𝓲𝔀𝓪𝓷'; //Your Taiwan sub-policy name.
 	const HK = $.read('BiliArea_HK') || '🇭🇰 𝓗𝓸𝓷𝓰𝓚𝓸𝓷𝓰'; //Your HongKong sub-policy name.
 	const DF = $.read('BiliArea_DF') || '🙅‍♂️ 𝓡𝓮𝓳𝓮𝓬𝓽'; //Sub-policy name used after region is blocked(e.g. url 404)
 	const off = $.read('BiliArea_disabled') || ''; //WiFi blacklist(disable region change), separated by commas.
