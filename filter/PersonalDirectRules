@@ -18,6 +18,3 @@ DOMAIN-SUFFIX, qcloud.com, direct
 DOMAIN-SUFFIX, oray.net, direct
 DOMAIN-SUFFIX, oray.com, direct
 DOMAIN-KEYWORD, oray, direct
-
-# 今日热榜
-DOMAIN,api.tophub.today,direct
