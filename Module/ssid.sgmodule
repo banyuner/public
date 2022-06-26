@@ -3,4 +3,5 @@
 
 [SSID Setting]
 "Huawei-Employee" suspend=true
-"USER_405_5G" suspend=true
+# "USER_405_5G" suspend=true
+# "X-X" cellular-mode=true
