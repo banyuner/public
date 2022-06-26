@@ -1,0 +1,6 @@
+#!name=SSID 模块
+#!desc= Company 网络切换状态
+
+[SSID Setting]
+"Huawei-Employee" suspend=true
+"USER_405_5G" suspend=true
