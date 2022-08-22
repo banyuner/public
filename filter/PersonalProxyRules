@@ -13,8 +13,8 @@ DOMAIN-SUFFIX,quora.fr, proxy
 
 # hostloc
 # USER-AGENT,hostloc*
-DOMAIN-KEYWORD,hostloc, proxy
-DOMAIN-SUFFIX,hostloc.com, proxy
+# DOMAIN-KEYWORD,hostloc, proxy
+# DOMAIN-SUFFIX,hostloc.com, proxy
 
 # ovh
 DOMAIN-KEYWORD, ovhcloud, proxy
