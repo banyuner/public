@@ -8,3 +8,10 @@ DOMAIN,ocsp.apple.com, reject
 DOMAIN-SUFFIX, jpush.cn, reject
 DOMAIN-SUFFIX, umeng.com, reject
 DOMAIN-KEYWORD, umengcloud, reject
+
+# fanzha
+DOMAIN-SUFFIX, fzapp.chanct.cn, reject
+DOMAIN-SUFFIX, fzapp.gjfzpt.cn, reject
+DOMAIN-SUFFIX, fzapph5.gjfzpt.cn, reject
+DOMAIN-SUFFIX, aaid.umeng.com, reject
+DOMAIN-SUFFIX, adash.man.aliyuncs.com, reject
