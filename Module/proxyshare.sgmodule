@@ -1,0 +1,17 @@
+#!name=proxyshare
+#!desc=代理分享
+#!system=ios
+
+[General]
+# Wi-Fi 访问
+# Surge 可以作为 HTTP/SOCKS5 代理服务器向 Wi-Fi 网络下的其他设备提供服务器
+allow-wifi-access = true
+
+# Surge iOS 供外网访问的服务端口
+# HTTP 服务端口 (默认值: 6152)
+wifi-access-http-port = 6152
+# SOCKS5 服务端口 (默认值: 6153)
+wifi-access-socks5-port = 6153
+
+# 允许热点共享
+allow-hotspot-access = true
