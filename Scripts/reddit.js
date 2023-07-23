@@ -4,7 +4,7 @@
  * update-time=2023.07.22 18:50
  */
 
-const body = JSON.parse($response.body)
+const body = JSON.parse($response.body);
 let modified
 if (body.data) {
   modified = true
