@@ -1,3 +1,8 @@
+# siyuan webdev 同步 ，cloudflare 下面是 r2 同步
+DOMAIN-SUFFIX, teracloud.jp, proxy
+DOMAIN-SUFFIX, infini-cloud.net, proxy
+
+
 # RoamResearch
 DOMAIN-SUFFIX,roamresearch.com, proxy
 DOMAIN-SUFFIX,sentry-cdn.com, proxy
