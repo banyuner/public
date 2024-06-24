@@ -1,0 +1,10 @@
+payload:
+- "metacubex.github.io"
+# windows
+- "catalog.update.microsoft.com"
+- "dl.delivery.mp.microsoft.com"
+- "download.microsoft.com"
+- "officecdn.microsoft.com"
+- "update.microsoft.com"
+- "windowsupdate.com"
+- "windowsupdate.*.com"
