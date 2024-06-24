@@ -1,12 +1,2 @@
 payload:
-- "metacubex.github.io"
-# windows
-- "catalog.update.microsoft.com"
-- "dl.delivery.mp.microsoft.com"
-- "download.microsoft.com"
-- "officecdn.microsoft.com"
-- "update.microsoft.com"
-- "windowsupdate.com"
-- "windowsupdate.*.com"
-# google play 商用升级和安装
-- "xn--ngstr-lra8j.com"
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
