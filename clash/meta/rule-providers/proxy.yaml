@@ -1,7 +1,5 @@
 payload:
-- "*short.weixin.qq.com"
-- "*long.weixin.qq.com"
-- "*googleapis.cn"
-- "*md.obsidian"
-- "*teracloud.jp"
-- "*infini-cloud.net"
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,md.obsidian
+  - DOMAIN-SUFFIX,teracloud.jp
+  - DOMAIN-SUFFIX,infini-cloud.net
