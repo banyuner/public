@@ -8,3 +8,5 @@ payload:
 - "update.microsoft.com"
 - "windowsupdate.com"
 - "windowsupdate.*.com"
+# google play 商用升级和安装
+- "xn--ngstr-lra8j.com"
