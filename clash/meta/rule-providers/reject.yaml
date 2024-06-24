@@ -1,5 +1,5 @@
 payload:
-- "*.teg.tencent-cloud.net"
-- "+.appcenter.ms"
-- "+.crashlytics"
-- "+.firebase.io"
+  - DOMAIN-SUFFIX,teg.tencent-cloud.net
+  - DOMAIN-SUFFIX,appcenter.ms
+  - DOMAIN-KEYWORD,crashlytics
+  - DOMAIN-SUFFIX,firebase.io
