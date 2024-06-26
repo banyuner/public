@@ -6,6 +6,25 @@ payload:
   - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-KEYWORD,obsidian
   - DOMAIN-SUFFIX,md.obsidian
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,infini-cloud.net
+  # anki
+  - DOMAIN-KEYWORD,anki
+  - DOMAIN-KEYWORD,ankiweb
+  # v2ex
+  - DOMAIN-SUFFIX, v2ex.com
+  # notion 精简版
+  - DOMAIN-SUFFIX, loggly.com, proxy
+  - DOMAIN-SUFFIX, segment.com, proxy
+  - DOMAIN-SUFFIX, intercom.io, proxy
+  - DOMAIN-SUFFIX, intercomcdn.com, proxy
+  - DOMAIN-SUFFIX, amplitude.com, proxy
+  - DOMAIN-SUFFIX, notion.so, proxy
+  - DOMAIN-SUFFIX, amazonaws.com, proxy
+  - DOMAIN-SUFFIX,notion-static.com, proxy
+  - DOMAIN-SUFFIX,notion.com, proxy
+  - DOMAIN-SUFFIX,notion.site, proxy
+  - DOMAIN-SUFFIX,notion.new, proxy
+  - DOMAIN-SUFFIX,notion.so, proxy
