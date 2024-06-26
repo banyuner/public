@@ -1,3 +1,5 @@
 payload:
   - DOMAIN-KEYWORD, huawei
   - DOMAIN-KEYWORD, huaweicloud.com
+  # 微信视频卡顿
+  - DOMAIN, dns.weixin.qq.com.cn
