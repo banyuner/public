@@ -1,5 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,md.obsidian
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,infini-cloud.net
