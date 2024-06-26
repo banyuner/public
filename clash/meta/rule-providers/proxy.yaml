@@ -1,7 +1,11 @@
 payload:
+  # 解决 google play 商店问题
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,services.googleapis.cn
+  - DOMAIN-SUFFIX,play.googleapis.com
+  - DOMAIN,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,android.clients.google.com
   - DOMAIN-SUFFIX,md.obsidian
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,infini-cloud.net
