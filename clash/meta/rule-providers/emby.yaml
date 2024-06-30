@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN-KEYWORD,emby
   - DOMAIN-SUFFIX,emby.wtf
   - DOMAIN-SUFFIX,pub1back.emby.wtf
   - DOMAIN-SUFFIX,pub2back.emby.wtf
