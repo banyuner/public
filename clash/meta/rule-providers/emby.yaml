@@ -154,3 +154,5 @@ payload:
   - DOMAIN-SUFFIX,stream_pilipili.misakaf.org
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,tanhuatv
+  # 音乐服
+  - DOMAIN-SUFFIX,iuii.org
