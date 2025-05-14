@@ -11,10 +11,11 @@ DOMAIN-SUFFIX,stripe.network, proxy
 DOMAIN-SUFFIX,stripe.com, proxy
 DOMAIN-SUFFIX,cloudfunctions.net, proxy
 
-# Quora
-DOMAIN-SUFFIX,quora.com, proxy
-DOMAIN-SUFFIX,quoracdn.net, proxy
-DOMAIN-SUFFIX,quora.fr, proxy
+# Google play store
+DOMAIN,gstatic.com, proxy
+DOMAIN,googleapis.com, proxy
+DOMAIN,googleapis.cn, proxy
+DOMAIN,services.googleapis.cn, proxy
 
 # hostloc
 # USER-AGENT,hostloc*
